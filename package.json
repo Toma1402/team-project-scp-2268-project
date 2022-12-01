@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://PaulHighrow.github.io/goit-markup-scp-2268-project",
+  "homepage": "https://Toma1402.github.io/team-project-scp-2268-project",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-markup-scp-2268-project/"
+    "build": "parcel build src/*.html --public-url /team-project-scp-2268-project/"
   },
   "repository": {
     "type": "git",

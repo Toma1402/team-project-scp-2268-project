@@ -1,4 +1,4 @@
-import JustValidate from 'just-validate';
+/* import JustValidate from 'just-validate'; */
 
 const body = document.querySelector('body');
 const backdrop = document.querySelector('[data-backdrop]');
@@ -34,8 +34,7 @@ validate
     },
   ])
   .onSuccess(event => {
-      console.log('Validation passes and form submitted', event);
-      
+    console.log('Validation passes and form submitted', event);
   });
 
 var validate = new JustValidate('.validateSub', {
@@ -57,7 +56,7 @@ validate
       rule: 'customRegexp',
       value: /[^@\s]+@[^@\s]+\.[^@\s]+/,
       errorMessage: 'Not a valid email address (example@email.com)',
-      },
+    },
   ])
   .onSuccess(event => {
     console.log('Validation passes and form submitted', event);
